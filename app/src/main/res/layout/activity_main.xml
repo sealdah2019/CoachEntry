@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/CoachNo"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFE4E1"
+        android:hint="Enter Coach Number"
+        android:inputType="number"
+        android:textColorHint="#A52A2A"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:hint="Enter Coach Number"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Spinner
+        android:id="@+id/Type"
+        android:layout_width="177dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFE4E1"
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/coach_type"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textColorHint="#A52A2A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CoachNo" />
+
+    <Spinner
+        android:id="@+id/rly"
+        android:layout_width="173dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFE4E1"
+        android:entries="@array/rly"
+        android:textAlignment="center"
+        android:textColorHint="#A52A2A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CoachNo" />
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Type"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <ListView
+        android:id="@+id/listViewCoaches"
+        android:layout_width="406dp"
+        android:layout_height="456dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFE4E1"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Submit"
+        tools:layout_editor_absoluteX="3dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

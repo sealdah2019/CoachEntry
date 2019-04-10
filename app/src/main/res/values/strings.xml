@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Coach Entry</string>
+    <array name="coach_type">
+        <item>WGSCN</item>
+        <item>WGS</item>
+        <item>WGFACCW</item>
+        <item>WGFAC</item>
+        <item>WGCB</item>
+        <item>LS</item>
+        <item>LWSCN</item>
+        <item>LWACCN</item>
+        <item>LWACCW</item>
+    </array>
+
+    <array name="rly">
+
+        <item>ER</item>
+        <item>SR</item>
+        <item>CR</item>
+        <item>NR</item>
+        <item>WR</item>
+        <item>EC</item>
+        <item>ECoR</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "785882675944",
+    "firebase_url": "https://coachentry.firebaseio.com",
+    "project_id": "coachentry",
+    "storage_bucket": "coachentry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785882675944:android:a94ea084cbd448e4",
+        "android_client_info": {
+          "package_name": "com.example.coachentry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785882675944-q9vs66d3prfdhcg889jjdnmpcppr7jvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coachentry",
+            "certificate_hash": "1f795ffe6039aa255ba65e28f3c347cd4b1da565"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGD4jdNUvsqoz0BNNUIXf_Y6vyrl7h1CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785882675944-46dfd3glm5hrn9cf6skd4pn0j12gp9aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
